@@ -24,7 +24,7 @@ h1 {
 h2 {
 	color: hsl(35, 50%, 40%);
 	font-weight: 600;
-	font-size: 120%;
+	font-size: 180%;
 }
 
 ul {
@@ -170,14 +170,6 @@ header {
 		transform: skew(-16deg);
 	}
 	
-	nav a[href="#download"] {
-		font-weight: 600;
-	}
-	
-	nav a[href="#download"]::before {
-		background: hsl(65, 85%, 35%);
-	}
-	
 	nav a:hover::before {
 		background: #58a;
 	}
@@ -239,4 +231,20 @@ td {
 
 :not(pre) > code[class*="language-"] {
 	background: none;
+}
+
+.polaroid {
+	margin-top: 1em;
+  	margin-left: auto;
+    margin-right: auto;
+  width: 8em;
+}
+ 
+.polaroid img {
+
+  border: 10px solid #fff;
+  border-bottom: 10px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
 }
