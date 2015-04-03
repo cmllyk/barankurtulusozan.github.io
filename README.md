@@ -1,3 +1,5 @@
 # barankurtulusozan.github.io
-Temp info web page hosted by github
-Baran Kurtuluş Ozan 2015.03.29
+> * Created on 2015.03.29 as a HTML Resume&Info Page
+
+Bug Report
+> * Auto Header Generator Js Not working on github, fix that after Exams [Deadline 2015.04.26]
